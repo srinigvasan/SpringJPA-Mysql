@@ -26,16 +26,16 @@ The following guides illustrate how to use some features concretely:
 
 ###  Install instructions.
 
-a) create new database before starting springboot application
+* create new database before starting springboot application
 
-# update the below properties in application.properties with your database details , username , password.
+* update the below properties in application.properties with your database details , username , password.
 
        * spring.datasource.url=jdbc:mysql://localhost:3306/reviewapi
        * spring.datasource.username=root
        * spring.datasource.password=pwd
 
-# Database migrations are implemented using flyway.migrate().  No need to create tables in the database.
+* Database migrations are implemented using flyway.migrate().  No need to create tables in the database.
 
-# Run the mvn springboot project as below
+* Run the mvn springboot project as below
 
   mvn spring-boot:run
