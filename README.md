@@ -34,6 +34,8 @@ a) create new database before starting springboot application
        * spring.datasource.username=root
        * spring.datasource.password=pwd
 
+# Database migrations are implemented using flyway.migrate().  No need to create tables in the database.
+
 # Run the mvn springboot project as below
 
   mvn spring-boot:run
