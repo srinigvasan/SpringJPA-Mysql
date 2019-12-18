@@ -28,8 +28,8 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfo(
-                "Dog API",
-                "This API returns a list of available dog breeds",
+                "Review API",
+                "This API give details about product reviews and comments",
                 "1.0",
                 "http://www.udacity.com/tos",
                 new Contact("Srini", "www.srini.com", "myeaddress@udacity.com"),
